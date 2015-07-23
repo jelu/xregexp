@@ -1,0 +1,24 @@
+Source: node-xregexp
+Section: web
+Priority: extra
+Maintainer: Jerry Lundström <lundstrom.jerry@gmail.com>
+Build-Depends:
+ debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: node-xregexp
+Architecture: all
+Depends:
+ ${misc:Depends},
+ nodejs (>= 0.6.19~dfsg1-3~)
+Description: XRegExp provides augmented, extensible, cross-browser JavaScript regular expressions.
+ XRegExp provides augmented, extensible, cross-browser JavaScript regular
+ expressions. You get new syntax and flags beyond what browsers support
+ natively, along with a collection of utils to make your client-side grepping
+ and parsing easier. XRegExp also frees you from worrying about pesky
+ inconsistencies in cross-browser regex handling and the dubious `lastIndex`
+ property.
+ .
+ XRegExp supports all native ES5 regular expression syntax. It's about 3.5 KB
+ when minified and gzipped. It works with Internet Explorer 5.5+,
+ Firefox 1.5+, Chrome, Safari 3+, and Opera 9.5+.
